@@ -1,11 +1,14 @@
 # setup-lila
 
+# Update Ubuntu
+```
 sudo apt update && sudo apt upgrade -y
 sudo reboot command
 sudo apt --purge autoremove
 sudo apt install update-manager-core
 sudo do-release-upgrade
 lsb_release -a
+```
 
 # Inatall Yarn
 ```
@@ -14,4 +17,16 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update
 sudo apt install yarn
 yarn --version
+```
+clone the repo ( https://github.com/ornicar/lila )
+
+```
+git clone --recursive https://github.com/ornicar/lila.git
+```
+
+build the ui
+
+```
+cd lila
+./ui/build # builds the CSS and JS
 ```
