@@ -26,9 +26,10 @@ clone the repo ( https://github.com/ornicar/lila )
 git clone --recursive https://github.com/ornicar/lila.git
 ```
 
-build the ui
+# Build the ui
 
 ```
 cd lila
 ./ui/build # builds the CSS and JS
 ```
+
