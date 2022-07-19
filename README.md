@@ -18,6 +18,8 @@ sudo apt update
 sudo apt install yarn
 yarn --version
 ```
+# Setup
+
 clone the repo ( https://github.com/ornicar/lila )
 
 ```
